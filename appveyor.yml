@@ -9,3 +9,6 @@
 
 install:
   - mvn install -DskipTests=true -Dgpg.skip=true
+  
+build_script:
+  - mvn test 
